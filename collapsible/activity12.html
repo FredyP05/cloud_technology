@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collapsible by Fredy Perez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="bg-info text-light text-center p-2">Collapsible</h1>
+    <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#cat">Open to read information about cat</button>
+    <!-- collasible window -->
+    <div id="cat" class="collapse p-3">
+        <h2 class="text-warning">Cat</h2>
+        <p>The cat is a domestic species of small carnivorous mammal. It is the only domesticated species in the fmaily Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.</p>
+        <figure>
+            <img src="images/upsidedowncat.jpg" alt="image of a cat" width="100%" class="mx-auto d-block img-thumbnail figure-img">
+            <figcaption class="figcaption text-center">
+                <a href="https://www.pexels.com/photo/playful-cat-lying-on-a-carpet-1276553/" target="_blank" rel="noopener noreferrer">Picture by Dids.</a>
+            </figcaption>
+        </figure>
+    </div>
+
+    <!-- ACCORDIONS -->
+    <h1 class="m-2">Accordions</h1>
+    <section class="accordion" id="accordionExample">
+        <!-- item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-target="#collapseOne" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">Cat</button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <p class="accordion-body">The cat is a domestic species of small carnivorous mammal. It is the only domesticated species in the fmaily Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.</p>
+                <figure>
+                    <img src="images/upsidedowncat.jpg" alt="image of a cat" width="80%" class="mx-auto d-block img-thumbnail figure-img">
+                    <figcaption class="figcaption text-center">
+                        <a href="https://www.pexels.com/photo/playful-cat-lying-on-a-carpet-1276553/" target="_blank" rel="noopener noreferrer">Picture by Dids.</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-target="#collapseTwo" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseTwo">Hippo</button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <p class="accordion-body">The hippopotamus, also shortened to hippo, further qualified as the common hippopotamus, Nile hippopotamus, or river hippopotamus, is a large semiaquatic mammal native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus.</p>
+                <figure>
+                    <img src="images/hippo.jpg" alt="image of a hippo" width="80%" class="mx-auto d-block img-thumbnail figure-img">
+                    <figcaption class="figcaption text-center">
+                        <a href="https://www.pexels.com/photo/hippos-in-water-46540/" target="_blank" rel="noopener noreferrer">Picture by Pixabay</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-target="#collapseThree" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseThree">Clownfish</button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <p class="accordion-body">Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. Thirty species of clownfish are recognized: one in the genus Premnas, while the remaining are in the genus Amphiprion. In the wild, they all form symbiotic mutualisms with sea anemones.</p>
+                <figure>
+                    <img src="images/nemo.jpg" alt="image of a clownfish" width="80%" class="mx-auto d-block img-thumbnail figure-img">
+                    <figcaption class="figcaption text-center">
+                        <a href="https://www.pexels.com/photo/close-up-photo-of-clownfish-128756/" target="_blank" rel="noopener noreferrer">Picture by crisdip</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <!-- item 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-target="#collapseFour" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseFour">Flamingo</button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <p class="accordion-body">Flamingos or flamingoes are a type of wading bird in the family Phoenicopteridae, which is the only extant family in the order Phoenicopteriformes. There are four flamingo species distributed throughout the Americas, and two species native to Afro-Eurasia. A group of flamingoes is called a "flamboyance".</p>
+                <figure>
+                    <img src="images/flamingo.jpg" alt="image of a flamingo" width="80%" class="mx-auto d-block img-thumbnail figure-img">
+                    <figcaption class="figcaption text-center">
+                        <a href="https://www.pexels.com/photo/orange-flamingo-36450/" target="_blank" rel="noopener noreferrer">Picture by Pixabay</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
