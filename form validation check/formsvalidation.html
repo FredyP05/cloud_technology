@@ -84,20 +84,21 @@
         <!-- EXERCISE - ADD COMMENTS SECTIONS WITH INVALID-FEEDBACK BLOCK AND VALID-FEEDBACK BLOCK -->
         <div class="mb-5">
             <legend class="bg-primary p-2">
-                Text Area
-            </legend>
-            <textarea cols="30" rows="10" class="form-control is-invalid" placeholder="Comments..." maxlength="200"
-                id="commentsArea"></textarea>
-            <p class="form-text">Max. 200 characters</p>
-        </div>
-        <div class="mb-5">
-            <legend class="bg-primary p-2">
-                Text Area
+                Comment
             </legend>
             <textarea cols="30" rows="10" class="form-control is-valid" placeholder="Comments..." maxlength="200"
                 id="commentsArea"></textarea>
             <p class="form-text">Max. 200 characters</p>
+            <!-- will show only if the input is valid -->
+            <div class="invalid-feedback">
+                Not enough!
+            </div>
+            <!-- will show only if the input is valid -->
+            <div class="valid-feedback">
+                Looks good!
+            </div>
         </div>
+       
 
 
         <hr>
