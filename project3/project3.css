@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* 6e2b3f */
 
 /* Style for the topbar */
  .topbar {
@@ -18,9 +19,10 @@
 /* Style for the logo */
 .logo {
   font-size: 24px;
-  font-weight: 900;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 30px;
+  font-weight: 800;
+  font-family: "Poppins";
+  padding-left: 55px;
+  color: white;
 }
 
 #background{
@@ -48,8 +50,8 @@
 
 .nav li a {
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 550;
+  font-family: "Poppins";
+  font-weight: 500;
   text-decoration: none;
   position: relative;
   transition: 0.5s;
@@ -76,6 +78,19 @@
   visibility: visible;
   transform: scaleX(1);
 }
+
+.head-title{
+  padding-top: 150px;
+  padding-left: 30px;
+  font-family: "poppins";
+  font-size: 70px;
+  color: white;
+}
+.color{
+  color: red;
+}
+
+
 
 /* Section */
 
@@ -104,6 +119,14 @@
   font-size: 60px;
   font-weight: 600;
   color: white;
+  font-family: "Poppins";
+}
+.para{
+  color: white;
+  font-size: 15px;
+  line-height: 35px;
+  font-family: "poppins";
+  padding-top: 20px;
 }
 
 
@@ -112,10 +135,10 @@
   background-color: aliceblue;
 }
 .bootstrap{
-  background-color: bisque;
+  background-color: black;
 }
 .projects{
-  background-color: purple;
+  background-color: aliceblue;
 }
 .category2{
   width: 100%;
@@ -126,8 +149,8 @@
 }
 
 .category2-box{
-  width: 160px;
-  height: 160px;
+  width: 260px;
+  height: 260px;
   background-color: #6e2b3f;
 }
 .category2-box h3{
