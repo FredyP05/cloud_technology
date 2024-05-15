@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/guatemala.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+img.flag{
+    width: 75px;
+}
+h1.logo{
+    color: white;
+    margin-left: 2%;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+nav ul li a:hover{
+    background-color: skyblue;
+    transform: scale(1.01);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+div.content{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+div.content h1{
+    font-size: 5em;
+    margin-bottom: 1%;
+}
+div.content p{
+    font-size: 1.7em;
+}
+h1.about{
+    text-align: center;
+    margin-top: 1.5%;
+}
+section.infocontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    width: 80%;
+}
+div.infoleft, div.inforight{
+    width: 49%;
+    border: solid red 1px;
+}
+img.img2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 20px;
+    transition: 500ms;
+}
+img.img2:hover{
+    scale: 1.02;
+}
+
+div.inforight{
+    padding: 1em;
+}
+
+div.infoleft2, div.inforight2{
+    width: 49%;
+    border: solid red 1px;
+}
+
+div.infoleft2{
+    padding: 1em;
+}
+
+div.infoleft2 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.infoleft2 p{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger;
+}
+
+div.inforight h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+div.inforight p{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger;
+}
+
+
+/*-- place holder --*
+a.infolink{
+    background-color: skyblue;
+    border:solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 41%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- top heading --*/
+/*--
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)), url("images/guatemala.jpg")
+}
+img.flaglogo{
+    position: absolute;
+    width: 5%;
+    display: flex;
+    left: 1.5%;
+}
+
+header.bar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 18px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+}
+nav.navbuttons a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 1em 2em;
+    transition: 500ms;
+    border-radius: 10px;
+}
+nav.navbuttons a:hover{
+    background-color: skyblue;
+    transform: scale(1.01);
+}
+
+section.titlecontainer{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+section.titlecontainer h1{
+    font-size: 5em;
+    margin-bottom: 1%;
+}
+section.titlecontainer p{
+    font-size: 1.7em;
+}
+
+/*-- main section 
+h1.about{
+    text-align: center;
+    margin-top: 1.5%;
+}
+section.infocontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    width: 80%;
+}
+div.infoleft, div.inforight{
+    width: 49%;
+    border: solid red 1px;
+}
+img.img2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 500ms;
+}
+img.img2:hover{
+    scale: 1.02;
+}
+
+div.inforight{
+    padding: 1em;
+}
+
+div.infoleft2, div.inforight2{
+    width: 49%;
+    border: solid red 1px;
+}
+
+div.infoleft2{
+    padding: 1em;
+}
+
+div.infoleft2 h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.infoleft2 p{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger;
+}
+
+div.inforight h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+div.inforight p{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger;
+}
+
+a.infolink{
+    background-color: skyblue;
+    border:solid black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
