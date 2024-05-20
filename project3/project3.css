@@ -134,6 +134,27 @@
 .html-css{
   background-color: aliceblue;
 }
+
+
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px
+}
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
 .bootstrap{
   background-color: black;
 }
@@ -156,6 +177,9 @@
 .category2-box h3{
   font-size: 18px;
   line-height: 24px;
+}
+.category2-box img{
+  width: 100%;
 }
 
 
